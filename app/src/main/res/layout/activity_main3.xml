@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40sp"
+        app:srcCompat="@drawable/weather" />
+
+    <Button
+        android:id="@+id/w1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#A6B2F5"
+        android:text="날씨 해설"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/w2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#F3ABAB"
+        android:text="날씨 누리 소통망 blog로 이동"
+        android:textAlignment="center"
+        android:textColor="#1D1C1C"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/w3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#CDF1A3"
+        android:text="포토뉴스 보러가기"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/w4"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#A7D2F5"
+        android:text="보도 자료 보러가기"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</LinearLayout>
