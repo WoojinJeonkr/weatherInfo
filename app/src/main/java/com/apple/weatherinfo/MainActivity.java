@@ -29,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.weather.go.kr/w/index.do")
+                Intent intent
+                        = new Intent(MainActivity.this,
+                        Main4Activity.class
                 );
                 startActivity(intent);
             }
-        }); // 클릭 시 기상청 홈페이지로 이동
+        }); // 클릭 시 기상청 홈페이지 이동 페이지로 이동
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
