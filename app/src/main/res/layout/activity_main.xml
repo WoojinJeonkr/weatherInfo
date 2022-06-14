@@ -16,7 +16,7 @@
     <Button
         android:id="@+id/b1"
         android:layout_width="match_parent"
-        android:layout_height="80sp"
+        android:layout_height="60dp"
         android:background="#ACDCF1"
         android:text="기상청 사이트로 가기"
         android:textAlignment="center"
@@ -27,7 +27,7 @@
     <Button
         android:id="@+id/b2"
         android:layout_width="match_parent"
-        android:layout_height="80sp"
+        android:layout_height="68dp"
         android:background="#E4EE82"
         android:text="우리 동네 날씨 확인하기"
         android:textAlignment="center"
@@ -38,11 +38,22 @@
     <Button
         android:id="@+id/b3"
         android:layout_width="match_parent"
-        android:layout_height="80sp"
+        android:layout_height="65dp"
         android:background="#ECCFA2"
         android:text="날씨 소식 확인하기"
         android:textAlignment="center"
         android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#5CC21616"
+        android:text="광고 사이트로 이동"
+        android:textAlignment="center"
+        android:textColor="#5306D8"
         android:textSize="24sp"
         android:textStyle="bold" />
 

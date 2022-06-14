@@ -13,7 +13,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
-    Button b1, b2, b3, b4;
+    Button b1, b2, b3, ad, b4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         b1 = findViewById(R.id.b1);
         b2 = findViewById(R.id.b2);
         b3 = findViewById(R.id.b3);
+        ad = findViewById(R.id.ad);
         b4 = findViewById(R.id.b4);
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +59,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }); // 클릭 시 기상청 유튜브 이동 페이지로 이동
+
+        ad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent
+                        = new Intent(MainActivity.this,
+                        Main6Activity.class
+                );
+                startActivity(intent);
+            }
+        });
 
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
